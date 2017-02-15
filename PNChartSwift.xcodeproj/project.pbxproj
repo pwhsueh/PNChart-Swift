@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3A9AD07C1E17043200A1732F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AD07B1E17043200A1732F /* AppDelegate.swift */; };
-		3A9AD07E1E17043200A1732F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9AD07D1E17043200A1732F /* ViewController.swift */; };
 		3A9AD0811E17043200A1732F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9AD07F1E17043200A1732F /* Main.storyboard */; };
 		3A9AD0831E17043200A1732F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9AD0821E17043200A1732F /* Assets.xcassets */; };
 		3A9AD0861E17043200A1732F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9AD0841E17043200A1732F /* LaunchScreen.storyboard */; };
@@ -47,7 +46,6 @@
 /* Begin PBXFileReference section */
 		3A9AD0781E17043200A1732F /* PNChartSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PNChartSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9AD07B1E17043200A1732F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A9AD07D1E17043200A1732F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A9AD0801E17043200A1732F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A9AD0821E17043200A1732F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9AD0851E17043200A1732F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				3A9AD07B1E17043200A1732F /* AppDelegate.swift */,
-				3A9AD07D1E17043200A1732F /* ViewController.swift */,
 				3A9AD07F1E17043200A1732F /* Main.storyboard */,
 				3A9AD0821E17043200A1732F /* Assets.xcassets */,
 				3A9AD0841E17043200A1732F /* LaunchScreen.storyboard */,
@@ -307,7 +304,6 @@
 				3A9AD0BD1E17047700A1732F /* PNLineChartDataItem.swift in Sources */,
 				3A9AD0B81E17047700A1732F /* PNChartLabel.swift in Sources */,
 				3A9AD0BB1E17047700A1732F /* PNLineChart.swift in Sources */,
-				3A9AD07E1E17043200A1732F /* ViewController.swift in Sources */,
 				3A9AD07C1E17043200A1732F /* AppDelegate.swift in Sources */,
 				3A9AD0C01E17047700A1732F /* PNValue.swift in Sources */,
 				3A9AD0B91E17047700A1732F /* PNColor.swift in Sources */,
@@ -556,6 +552,7 @@
 				3A9AD0A21E17043200A1732F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A9AD0A31E17043200A1732F /* Build configuration list for PBXNativeTarget "PNChartSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +561,7 @@
 				3A9AD0A51E17043200A1732F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A9AD0A61E17043200A1732F /* Build configuration list for PBXNativeTarget "PNChartSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +570,7 @@
 				3A9AD0A81E17043200A1732F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
